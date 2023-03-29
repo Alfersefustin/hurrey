@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0px;
+  height: 100vh;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  font-family: "Neue Haas Grotesk Display Pro";
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0.01em;
+}
+input {
+  height: 45px;
+  width: 300px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background: linear-gradient(#141923, #141923) padding-box,
+    linear-gradient(to right, #7b72cc, #dc0078, #3871d6) border-box;
+  border: 2px solid transparent;
+  color: white;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#submit {
+  background: #3a3a3a;
+  border: 1.65625px solid #b0b0b0;
+  border-radius: 43.4766px;
+  padding: 10px 63px 10px 63px;
+  margin-top: 23px;
+  cursor: pointer;
+  color: white;
+}
+
+@media only screen and (max-width: 650px) {
+  .centered {
+    top: 100% !important;
+    left: 100% !important;
+  }
+}
+.centered2 {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
