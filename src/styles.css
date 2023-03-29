@@ -10,7 +10,6 @@ body {
   position: relative;
   text-align: center;
   color: white;
-  overflow: hidden;
 }
 .centered {
   position: absolute;

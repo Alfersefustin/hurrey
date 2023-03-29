@@ -63,4 +63,11 @@
   .container2 {
     width: 60%;
   }
+  .av-img {
+    display: block;
+  }
+  .avatar {
+    margin-top: 23px;
+    margin-left: 34px;
+  }
 }
