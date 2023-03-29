@@ -3,13 +3,13 @@
 body {
   margin: 0px;
   height: 100vh;
+  font-family: "Neue Haas Grotesk Display Pro";
 }
 .container {
   position: relative;
   text-align: center;
   color: white;
   overflow: hidden;
-  font-family: "Neue Haas Grotesk Display Pro";
 }
 .centered {
   position: absolute;
